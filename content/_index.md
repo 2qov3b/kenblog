@@ -1,5 +1,5 @@
 +++
-title = "Posts"
+title = "Ideas"
 menu = "main"
 weight = "10"
 +++

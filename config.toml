@@ -1,13 +1,13 @@
 baseurl = "https://2qov3b.github.io/"
-title = "Ken Ken Blog"
-copyright = "Copyright &copy; 2020 - Ken Ken"
+title = "Ken Shen's Idea Pool"
+copyright = "Copyright &copy; 2020 - Ken Shen"
 canonifyurls = true
 theme = "kiera"
 publishDir = "public"
 hasCJKLanguage = true
 
 ## kiera theme settings
-paginate = 3
+paginate = 7
 summaryLength = 30
 enableEmoji = true
 pygmentsCodeFences = true
@@ -34,8 +34,8 @@ languageCode = "ja-jp"
     youtube = "user/username" # or channel/channelname
 
 [params]
-    tagline = "コロナは怖い！！！- tagline"
-    description = "悪霊退散 - description"
+    tagline = "Prepare for an uncertain future."
+    #description = "description"
     #images = [""] #This is used for opengraph/twitter cards.
     customCSS = []  #Optional Customised CSS
     #favicon = ""
@@ -43,33 +43,9 @@ languageCode = "ja-jp"
     #utterancesIssueTerm = "pathname"
     #homepageLength = 10
 
+
 [[menu.main]]
-    identifier = "workers"
-    name = "Workers"
-    url = "/workers"
+    identifier = "works"
+    name = "Works"
+    url = "content/works"
     weight = 5
-
-
-[[menu.main]]
-    identifier = "pokers"
-    name = "Pokers"
-    url = "/pokers"
-    weight = 5
-
-[[menu.main]]
-    identifier = "hackers"
-    name = "Hackers"
-    url = "/hackers"
-    weight = 5
-
-[[menu.main]]
-    identifier = "examples"
-    name = "Exs"
-    url = "/examples"
-    weight = 5
-
-[[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about"
-    weight = 10
