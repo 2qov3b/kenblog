@@ -1,2 +1,2 @@
-# kenblog
-My daily mur mur.
+# blog01
+bk my blog01.
