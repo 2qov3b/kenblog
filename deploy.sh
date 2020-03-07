@@ -1,11 +1,9 @@
 #!/bin/bash
 
-set -x
+# If a command fails then the deploy stops
+set -e
 
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
-
-#git submodule add -b master https://github.com/2qov3b/2qov3b.github.io public
-#git clone https://github.com/2qov3b/2qov3b.github.io public
 
 # Build the project.
 hugo -t kiera
